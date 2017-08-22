@@ -1,13 +1,9 @@
-#tr[1].select('td.col-deck-type ')
-#tr[1].select('span > a')
-
-
-
 import requests
 from bs4 import BeautifulSoup as bs4
 import urlparse
 from operator import itemgetter
 from collections import OrderedDict
+
 counts = dict()
 neutral_counts = dict()
 card_dict = dict()
